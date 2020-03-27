@@ -1,5 +1,6 @@
 # PQ4: Build your Working Prototype
+Anaïs Sarrazin, Emme McCabe & Nicole Nigro
 
-Now that we have gathered a lot of information about our design and domain, we will start coding. You do not need to develop a full and complete implementation for your vision (although the more you can achieve, the better!). Instead, use your past party quests (PQs 1-3) and the observations you gain through peer review of your latest most polished design representation to guide your first implementation.
+This is our first implementation of our ePub online ordering service. We have compiled peer feedback and observations through our last 3 PQs, which have guided the transformation to our working prototype. The high-fidelity prototype we are building allows users to achieve the single goal of locating their intended food item and adding it to the cart. Secondly, we will include pick-up instructions and erroneous order conflict resolution. The design is not yet optimized in terms of design aesthetics or efficiency. 
 
-At minimum, aim to have a high-fidelity prototype that permits the user to achieve a single goal that is core to your system. This does not have to be optimized in terms of design or any other qualities, but the core functionality needed to support at least one user goal should be in place.
+
