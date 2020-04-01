@@ -16,6 +16,9 @@
   <!-- Custom styles for this template -->
   <link href="css/shop-homepage.css" rel="stylesheet">
 
+  <!-- Custom style by CodyHouse --> 
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -106,6 +109,9 @@
                 </h4>
                 <h5>$4.75</h5>
                 <p class="card-text"></p>
+                <p class="flex flex-wrap flex-center flex-gap-xxs">
+                  <a href="#0" class="cd-add-to-cart js-cd-add-to-cart" data-price="4.75">Add To Cart</a>
+                </p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -219,6 +225,46 @@
   </div>
   <!-- /.container -->
 
+
+
+  <!-- Add to cart functionality-->
+  <div class="cd-cart cd-cart--empty js-cd-cart">
+  <a href="#0" class="cd-cart__trigger text-replace">
+    Cart
+    <ul class="cd-cart__count"> <!-- cart items count -->
+      <li>0</li>
+      <li>0</li>
+    </ul> <!-- .cd-cart__count -->
+  </a>
+
+  <div class="cd-cart__content">
+    <div class="cd-cart__layout">
+      <header class="cd-cart__header">
+        <h2>Cart</h2>
+        <span class="cd-cart__undo">Item removed. <a href="#0">Undo</a></span>
+      </header>
+      
+      <div class="cd-cart__body">
+        <ul>
+          <!-- products added to the cart will be inserted here using JavaScript -->
+        </ul>
+      </div>
+
+      <footer class="cd-cart__footer">
+        <a href="#0" class="cd-cart__checkout">
+          <em>Checkout - $<span>0</span>
+            <svg class="icon icon--sm" viewBox="0 0 24 24"><g fill="none" stroke="currentColor"><line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="3" y1="12" x2="21" y2="12"/><polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="15,6 21,12 15,18 "/></g>
+            </svg>
+          </em>
+        </a>
+      </footer>
+    </div>
+  </div> <!-- .cd-cart__content -->
+</div> <!-- cd-cart -->
+
+
+
+
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
@@ -231,6 +277,9 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- util functions included in the CodyHouse framework -->
+  <script src="vendor/jquery/util.js"></script> 
+  <script src="vendor/jquery/main.js"></script> 
 
 </body>
 
