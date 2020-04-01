@@ -93,7 +93,7 @@ var shoppingCart = (function() {
     for(var item in cart) {
       totalCount += cart[item].count;
     }
-    return totalCount;
+    return Number(totalCount.toFixed(2));
   }
 
   // Total cart
@@ -102,7 +102,7 @@ var shoppingCart = (function() {
     for(var item in cart) {
       totalCart += cart[item].price * cart[item].count;
     }
-    return Number(totalCart.toFixed(3));
+    return Number(totalCart.toFixed(2));
   }
 
   // List cart
@@ -115,7 +115,7 @@ var shoppingCart = (function() {
         itemCopy[p] = item[p];
 
       }
-      itemCopy.total = Number(item.price * item.count).toFixed(3);
+      itemCopy.total = Number(item.price * item.count).toFixed(2);
       cartCopy.push(itemCopy)
     }
     return cartCopy;
