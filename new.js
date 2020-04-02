@@ -1,5 +1,7 @@
 // ************************************************
-// Shopping Cart API
+// Adapted Shopping Cart API
+// Code originally by Burlaka Dmytro
+// https://codepen.io/Dimasion/pen/oBoqBM
 // ************************************************
 
 var shoppingCart = (function() {
@@ -20,7 +22,7 @@ var shoppingCart = (function() {
     sessionStorage.setItem('shoppingCart', JSON.stringify(cart));
   }
   
-    // Load cart
+  // Load cart
   function loadCart() {
     cart = JSON.parse(sessionStorage.getItem('shoppingCart'));
   }
