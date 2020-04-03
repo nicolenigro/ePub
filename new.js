@@ -41,6 +41,11 @@ var shoppingCart = (function() {
   // Public methods and propeties
   // =============================
   var obj = {};
+
+  var app = {
+    "Fried-Pickles":"Fried Pickles",
+    "Mac-Cheese-Bites":"Fried macaroni & cheese bites"
+  }
   
   // Add to cart
   obj.addItemToCart = function(name, price, count) {
