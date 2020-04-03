@@ -12,6 +12,14 @@ p{
 }
 
 .show-cart li {
-  display: flex;
+  display: flex !important;
 }
 
+.card {
+  margin-bottom: 20px !important;
+}
+.card-img-top {
+  width: 200px !important;
+  height: 200px !important;
+  align-self: center !important;
+}

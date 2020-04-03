@@ -181,7 +181,7 @@ function displayCart() {
 }
 
 // Delete item button
-$('.show-cart').on("click", ".delete-item", function(event) {
+$('.show-cart').on("click", ".delete-item", function(e) {
   var name = $(this).data('name')
   shoppingCart.removeItemFromCartAll(name);
   displayCart();
@@ -189,28 +189,26 @@ $('.show-cart').on("click", ".delete-item", function(event) {
 
 
 // -1 (removing item while in cart)
-$('.show-cart').on("click", ".minus-item", function(event) {
+$('.show-cart').on("click", ".minus-item", function(e) {
   var name = $(this).data('name')
   shoppingCart.removeItemFromCart(name);
   displayCart();
 })
 
 // +1 (adding item while in cart)
-$('.show-cart').on("click", ".plus-item", function(event) {
+$('.show-cart').on("click", ".plus-item", function(e) {
   var name = $(this).data('name')
   shoppingCart.addItemToCart(name);
   displayCart();
 })
 
 // Item count input
-$('.show-cart').on("change", ".item-count", function(event) {
+$('.show-cart').on("change", ".item-count", function(e) {
    var name = $(this).data('name');
    var count = Number($(this).val());
   shoppingCart.setCountForItem(name, count);
   displayCart();
 });
-
-
 
 
 displayCart();
