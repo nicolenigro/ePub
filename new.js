@@ -175,7 +175,7 @@ function displayCart() {
   var cartArray = shoppingCart.listCart();
   var output = "";
   for(var i in cartArray) {
-    var item = app.get(cartArray[i].name);
+    //var item = app.get(cartArray[i].name);
     output += "<tr>"
       + "<td>" + cartArray[i].name + "</td>" 
       + "<td>(" + "$" + cartArray[i].price + ")</td>"
