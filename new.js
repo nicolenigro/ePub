@@ -9,6 +9,11 @@ var shoppingCart = (function() {
   // Private methods and propeties
   // =============================
   cart = [];
+
+  var app = {
+    "Fried-Pickles":"Fried Pickles",
+    "Mac-Cheese-Bites":"Fried macaroni & cheese bites"
+  }
   
   // Constructor
   function Item(name, price, count) {
@@ -16,6 +21,7 @@ var shoppingCart = (function() {
     this.price = price;
     this.count = count;
   }
+
   
   // Save cart
   function saveCart() {
@@ -167,7 +173,7 @@ function displayCart() {
     output += "<tr>"
       + "<td>" + cartArray[i].name + "</td>" 
       + "<td>(" + "$" + cartArray[i].price + ")</td>"
-      + "<td><div class='input-group'><button class='minus-item input-group-addon btn btn-primary' data-name=" + cartArray[i].name + ">-</button>"
+      + "<td><div class='input-group'><button class='minus-item input-group-addon btn btn-primary' data-name=" + app[cartArray[i].name] + ">-</button>"
       + "<input type='number' class='item-count form-control' data-name='" + cartArray[i].name + "' value='" + cartArray[i].count + "'>"
       + "<button class='plus-item btn btn-primary input-group-addon' data-name=" + cartArray[i].name + ">+</button></div></td>"
       + "<td><button class='delete-item btn btn-danger' data-name=" + cartArray[i].name + ">X</button></td>"
