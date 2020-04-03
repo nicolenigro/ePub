@@ -10036,6 +10036,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.show-cart li {
+  display: flex;
+}
+
 
 
 /*# sourceMappingURL=bootstrap.css.map */

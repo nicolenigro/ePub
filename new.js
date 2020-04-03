@@ -186,14 +186,14 @@ $('.show-cart').on("click", ".delete-item", function(event) {
 })
 
 
-// -1
+// -1 (removing item while in cart)
 $('.show-cart').on("click", ".minus-item", function(event) {
   var name = $(this).data('name')
   shoppingCart.removeItemFromCart(name);
   displayCart();
 })
 
-// +1
+// +1 (adding item while in cart)
 $('.show-cart').on("click", ".plus-item", function(event) {
   var name = $(this).data('name')
   shoppingCart.addItemToCart(name);
