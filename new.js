@@ -11,9 +11,9 @@ var shoppingCart = (function() {
   cart = [];
 
   var app = {
-    Fried-Pickles:"Fried Pickles",
+    "Fried-Pickles":"Fried Pickles",
     "Mac-Cheese-Bites":"Fried macaroni & cheese bites"
-  }
+  };
   
   // Constructor
   function Item(name, price, count) {
@@ -176,7 +176,7 @@ function displayCart() {
   var output = "";
   //var item = cartArray[i].name
   for(var i in cartArray) {
-    var item = app[cartArray[i].name]
+    var item = app.get(cartArray[i].name);
     output += "<tr>"
       + "<td>" + item + "</td>" 
       + "<td>(" + "$" + cartArray[i].price + ")</td>"
