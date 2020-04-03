@@ -141,6 +141,7 @@ var shoppingCart = (function() {
 // *****************************************
 // Triggers / Events
 // ***************************************** 
+
 // Add item
 $('.add-to-cart').click(function(event) {
   event.preventDefault();
@@ -178,7 +179,6 @@ function displayCart() {
 }
 
 // Delete item button
-
 $('.show-cart').on("click", ".delete-item", function(event) {
   var name = $(this).data('name')
   shoppingCart.removeItemFromCartAll(name);
@@ -192,6 +192,7 @@ $('.show-cart').on("click", ".minus-item", function(event) {
   shoppingCart.removeItemFromCart(name);
   displayCart();
 })
+
 // +1
 $('.show-cart').on("click", ".plus-item", function(event) {
   var name = $(this).data('name')
