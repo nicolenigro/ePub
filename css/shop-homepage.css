@@ -16,10 +16,10 @@ p{
 }
 
 .card {
-  margin-bottom: 20px !important;
+  margin-bottom: 20px;
 }
 .card-img-top {
-  width: 200px !important;
-  height: 200px !important;
-  align-self: center !important;
+  width: 200px;
+  height: 200px;
+  align-self: center;
 }
