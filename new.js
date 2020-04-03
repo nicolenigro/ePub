@@ -11,7 +11,7 @@ var shoppingCart = (function() {
   cart = [];
 
   var app = {
-    "Fried-Pickles":"Fried Pickles",
+    Fried-Pickles:"Fried Pickles",
     "Mac-Cheese-Bites":"Fried macaroni & cheese bites"
   }
   
