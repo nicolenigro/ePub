@@ -174,11 +174,10 @@ $('.clear-cart').click(function() {
 function displayCart() {
   var cartArray = shoppingCart.listCart();
   var output = "";
-  //var item = cartArray[i].name
   for(var i in cartArray) {
     var item = app.get(cartArray[i].name);
     output += "<tr>"
-      + "<td>" + item + "</td>" 
+      + "<td>" + cartArray[i].name + "</td>" 
       + "<td>(" + "$" + cartArray[i].price + ")</td>"
       + "<td><div class='input-group'><button class='minus-item input-group-addon btn btn-primary' data-name=" + cartArray[i].name + ">-</button>"
       + "<input type='number' class='item-count form-control' data-name='" + cartArray[i].name + "' value='" + cartArray[i].count + "'>"
