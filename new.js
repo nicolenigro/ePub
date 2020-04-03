@@ -176,7 +176,7 @@ function displayCart() {
   var output = "";
   //var item = cartArray[i].name
   for(var i in cartArray) {
-    var item = cartArray[i].name
+    var item = item[cartArray[i].name]
     output += "<tr>"
       + "<td>" + item + "</td>" 
       + "<td>(" + "$" + cartArray[i].price + ")</td>"
