@@ -57,6 +57,8 @@
           <li class="nav-item">
             <a class="btn btn-primary" href="#">Sign In</a>
           </li>
+          <li class = "nav-item">
+            <a class="btn btn-primary" data-toggle="modal" data-target="#cart" href="#">Cart (<span class="total-count"></span>)</a>
         </ul>
       </div>
     </div>
@@ -105,6 +107,7 @@
                 </h4>
                 <h5>$6.50</h5>
                 <p class="card-text">With French fries</p>
+                <a href="#" data-name="Chicken-Finger-Basket" data-price="6.50" class="add-to-cart btn btn-primary">Add to cart</a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -121,6 +124,7 @@
                 </h4>
                 <h5>$6.50</h5>
                 <p class="card-text">With cocktail sauce and French fries</p>
+                <a href="#" data-name="Popcorn-Shrimp-Basket" data-price="6.50" class="add-to-cart btn btn-primary">Add to cart</a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -137,6 +141,7 @@
                 </h4>
                 <h5>$7.50</h5>
                 <p class="card-text">With tartar sauce and French fries</p>
+                <a href="#" data-name="Fried-Haddock-Basket" data-price="7.50" class="add-to-cart btn btn-primary">Add to cart</a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -154,6 +159,31 @@
   </div>
   <!-- /.container -->
 
+  <!-- Modal (Code from Template): Dialog box positioned over everything-->
+  <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="show-cart table">
+
+          </table>
+          <div>Total price: $<span class="total-cart"></span></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
@@ -166,6 +196,9 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Cart functionality JavaScript -->
+  <script src="new.js"></script>
 
 </body>
 

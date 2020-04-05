@@ -57,6 +57,8 @@
           <li class="nav-item">
             <a class="btn btn-primary" href="#">Sign In</a>
           </li>
+          <li class = "nav-item">
+            <a class="btn btn-primary" data-toggle="modal" data-target="#cart" href="#">Cart (<span class="total-count"></span>)</a>
         </ul>
       </div>
     </div>
@@ -105,6 +107,7 @@
                 </h4>
                 <h5>$4.75</h5>
                 <p class="card-text">Freshly ground in our own meat shop</p>
+                <a href="#" data-name="Cheeseburger" data-price="4.75" class="add-to-cart btn btn-primary">Add to cart</a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -121,6 +124,7 @@
                 </h4>
                 <h5>$5.95</h5>
                 <p class="card-text">Grilled turkey burger with salsa, avocado and jack cheese</p>
+                <a href="#" data-name="Turkey-Burger" data-price="5.95" class="add-to-cart btn btn-primary">Add to cart</a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -137,6 +141,7 @@
                 </h4>
                 <h5>$5.75</h5>
                 <p class="card-text">Our signature quarter pounder with grilled onions, mushrooms, bacon & Swiss cheese</p>
+                <a href="#" data-name="Polar-Bear-Burger" data-price="5.75" class="add-to-cart btn btn-primary">Add to cart</a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -153,6 +158,7 @@
                 </h4>
                 <h5>$5.95</h5>
                 <p class="card-text">Choice of beef or turkey burger with Swiss cheese, bacon, crisp onion rings & BBQ sauce</p>
+                <a href="#" data-name="Smoke-House-Burger" data-price="5.95" class="add-to-cart btn btn-primary">Add to cart</a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -169,6 +175,7 @@
                 </h4>
                 <h5>$6.75</h5>
                 <p class="card-text">Locally made black bean & spinach veggie burger served on a bulkie roll with lettuce & tomato</p>
+                <a href="#" data-name="Garden-Burger" data-price="6.75" class="add-to-cart btn btn-primary">Add to cart</a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -185,6 +192,7 @@
                 </h4>
                 <h5>$5.75</h5>
                 <p class="card-text">Served with grilled onions and peppers on a toasted roll</p>
+                <a href="#" data-name="Philly-Steak-&-Cheese" data-price="5.75" class="add-to-cart btn btn-primary">Add to cart</a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -201,6 +209,7 @@
                 </h4>
                 <h5>$3.00</h5>
                 <p class="card-text"></p>
+                <a href="#" data-name="Grilled-Cheeese" data-price="3.00" class="add-to-cart btn btn-primary">Add to cart</a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -218,6 +227,30 @@
   </div>
   <!-- /.container -->
 
+  <!-- Modal (Code from Template): Dialog box positioned over everything-->
+  <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="show-cart table">
+
+          </table>
+          <div>Total price: $<span class="total-cart"></span></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
@@ -230,6 +263,9 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Cart functionality JavaScript -->
+  <script src="new.js"></script>
 
 </body>
 
