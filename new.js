@@ -22,12 +22,12 @@ var shoppingCart = (function() {
     this.count = count;
   }
 
-  
+
   // Save cart
   function saveCart() {
     sessionStorage.setItem('shoppingCart', JSON.stringify(cart));
   }
-  
+
     // Load cart
   function loadCart() {
     cart = JSON.parse(sessionStorage.getItem('shoppingCart'));
@@ -35,7 +35,7 @@ var shoppingCart = (function() {
   if (sessionStorage.getItem("shoppingCart") != null) {
     loadCart();
   }
-  
+
 
   // =============================
   // Public methods and propeties
@@ -46,7 +46,7 @@ var shoppingCart = (function() {
     "Fried-Pickles":"Fried Pickles",
     "Mac-Cheese-Bites":"Fried macaroni & cheese bites"
   }
-  
+
   // Add to cart
   obj.addItemToCart = function(name, price, count) {
     for(var item in cart) {
@@ -102,7 +102,7 @@ var shoppingCart = (function() {
     saveCart();
   }
 
-  // Count cart 
+  // Count cart
   obj.totalCount = function() {
     var totalCount = 0;
     for(var item in cart) {
@@ -153,7 +153,7 @@ var shoppingCart = (function() {
 
 // *****************************************
 // Triggers / Events
-// ***************************************** 
+// *****************************************
 
 // Add item
 $('.add-to-cart').click(function(event) {
@@ -177,14 +177,14 @@ function displayCart() {
   for(var i in cartArray) {
     //var item = app.get(cartArray[i].name);
     output += "<tr>"
-      + "<td>" + cartArray[i].name + "</td>" 
+      + "<td>" + cartArray[i].name + "</td>"
       + "<td>(" + "$" + cartArray[i].price + ")</td>"
       + "<td><div class='input-group'><button class='minus-item input-group-addon btn btn-primary' data-name=" + cartArray[i].name + ">-</button>"
       + "<input type='number' class='item-count form-control' data-name='" + cartArray[i].name + "' value='" + cartArray[i].count + "'>"
       + "<button class='plus-item btn btn-primary input-group-addon' data-name=" + cartArray[i].name + ">+</button></div></td>"
       + "<td><button class='delete-item btn btn-danger' data-name=" + cartArray[i].name + ">X</button></td>"
-      + " = " 
-      + "<td>" + "$" + cartArray[i].total + "</td>" 
+      + " = "
+      + "<td>" + "$" + cartArray[i].total + "</td>"
       +  "</tr>";
   }
   $('.show-cart').html(output);
