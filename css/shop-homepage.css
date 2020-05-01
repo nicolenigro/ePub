@@ -7,10 +7,6 @@ body {
   padding-top: 56px;
 }
 
-p{
-  padding-top: 50px;
-}
-
 .show-cart li {
   display: flex !important;
 }
