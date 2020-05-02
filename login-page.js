@@ -8,9 +8,8 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "acsarraz" && password === "anais") {
-        //alert("You have successfully logged in.");
-        window.open('menu.html')
-        location.reload();
+        window.location.replace('menu.html')
+        //location.reload();
     } else {
         //loginErrorMsg.style.opacity = 1;
         alert("Error password or username!")
