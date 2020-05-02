@@ -10,7 +10,7 @@ loginButton.addEventListener("click", (e) => {
     if (username === "acsarraz" && password === "anais") {
         //alert("You have successfully logged in.");
         window.open('menu.html')
-        //location.reload();
+        location.reload();
     } else {
         //loginErrorMsg.style.opacity = 1;
         alert("Error password or username!")
