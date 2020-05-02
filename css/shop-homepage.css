@@ -30,3 +30,7 @@ column {
   float: center;
   width: 33.33%;
 }
+
+.col-md-6 {
+    background-color: #f5f3f3;
+}
