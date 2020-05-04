@@ -7,7 +7,7 @@
 var shoppingCart = (function() {
   // =============================
   // Private methods and propeties
-  // =============================
+  // ============================ 
   cart = [];
 
   var app = {
@@ -21,7 +21,6 @@ var shoppingCart = (function() {
     this.price = price;
     this.count = count;
   }
-
 
   // Save cart
   function saveCart() {
@@ -222,5 +221,5 @@ $('.show-cart').on("change", ".item-count", function(e) {
   displayCart();
 });
 
-
 displayCart();
+console.log("connected to new.js");
