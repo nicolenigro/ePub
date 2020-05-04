@@ -109,7 +109,8 @@
             </div>
 
             <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Place order</button>
+            <a onclick="javascript:sendEmail()" href="/order-confirmation.html" class="btn btn-primary btn-lg btn-block">Place Order</a>
+          
           </form>
         </div>
       </div>
@@ -151,7 +152,9 @@
             }, false);
           });
         }, false);
-      })();
+      })
+
+      ;
     </script>
   </body>
 

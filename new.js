@@ -222,4 +222,6 @@ $('.show-cart').on("change", ".item-count", function(e) {
 });
 
 displayCart();
-console.log("connected to new.js");
+console.log(displayCart());
+
+
