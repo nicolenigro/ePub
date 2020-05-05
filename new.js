@@ -7,14 +7,14 @@
 var shoppingCart = (function() {
   // =============================
   // Private methods and propeties
-  // ============================ 
+  // ============================
   cart = [];
 
   var app = {
     "Fried-Pickles":"Fried Pickles",
     "Mac-Cheese-Bites":"Fried macaroni & cheese bites"
   };
-  
+
   // Constructor
   function Item(name, price, count) {
     this.name = name;
@@ -223,5 +223,3 @@ $('.show-cart').on("change", ".item-count", function(e) {
 
 displayCart();
 console.log(displayCart());
-
-
