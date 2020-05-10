@@ -10,6 +10,7 @@ Anaïs Sarrazin, Emme McCabe & Nicole Nigro
 Once the page loads, you should be able to see ePub's home page (index.html)
 
 **How to use our project:**
+
 *On our home page, we have links to other pages on right part of the header bar*
 - the About page has some information about our idea for ePub
 - the Menu page has links under the centered menu label to different parts of the menu
