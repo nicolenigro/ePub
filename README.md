@@ -13,7 +13,7 @@ Once the page loads, you should be able to see ePub's home page (index.html)
 
 **How to use our project:**
 
-*On our home page, we have links to other pages on right part of the header bar*
+*On our home page, we have links to other pages on the right part of the header bar:*
 - the About page has some information about our idea for ePub
 - the Menu page has links under the centered menu label to different parts of the menu
 - the Contact page has the phone # and address of the Jack Magee's Pub
@@ -29,4 +29,4 @@ Once the page loads, you should be able to see ePub's home page (index.html)
 4. If you want to make any changes to your cart, click on the blue Cart button in the top right corner of the website. This will trigger a cart popup which will list the items in your cart and their quantity. You can increase or decrease the quantity of different items as well as remove items completely from your cart. You can press the X in the upper right corner of the popup or the grey Close button on the bottom of the pop up to close the cart popup.
 5. When you are ready to check out, click on the blue Cart button and then click on the blue Checkout button in the bottom right corner of the cart popup.
 6. The previous step will take you to the checkout page. Here, you will be prompted to enter your first name, last name, email, order comments and spceifications (e.g. no pickles), and form of payment. You can also review your order and make any last minute changes to it. When you have finished entering your info and reviewing your order, click on the blue place order button. 
-7. Now your order has been placed! This will link to an order confirmation page that gives you your order number (which you can tell the pub cashier when you go to pay and pick it up) as well as an estimate for when your order will be done.
+7. Now your order has been placed! You will be taken to an order confirmation page that gives you your order number (which you can tell the pub cashier when you go to pay and pick it up) as well as an estimate for when your order will be done. Enjoy!
