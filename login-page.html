@@ -20,13 +20,11 @@ https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-ja
   <!-- Custom styles for this template -->
   <link href="css/login-page.css" rel="stylesheet">
 
-  <script defer src="login-page.js"></script>
-  <!-- Cart functionality JavaScript -->
-  <script src="new.js"></script>
-
 </head>
 
-<!-- Navigation -->
+<body>
+
+  <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/index.html">Jack Magee's ePub </a>
@@ -36,18 +34,20 @@ https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-ja
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-
-
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home
-              <span class="sr-only">(current)</span>
+
             </a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="menu.html">Menu</a>
+
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu
+              <span class="sr-only">(current)</span>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -58,8 +58,8 @@ https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-ja
           <li class="nav-item">
             <a class="nav-link" href="my-account.html">My Account </a>
           </li>
-          <li class="nav-item">
-            <a class="btn btn-primary" href="login-page.html"> Sign In </a>
+          <li class="nav-item active">
+            <a class="btn btn-primary" href="login-page.html">Sign In</a>
           </li>
           <li class = "nav-item">
             <a class="btn btn-primary" data-toggle="modal" data-target="#cart" href="#">Cart (<span class="total-count"></span>)</a>
@@ -69,8 +69,6 @@ https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-ja
 
   </nav>
 
-
-<body>
   <main id="main-holder">
     <h1 id="login-header">Sign In</h1>
 
@@ -110,6 +108,10 @@ https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-ja
     </div>
   </div>
 
+  <script defer src="login-page.js"></script>
+
+  <!-- Cart functionality JavaScript -->
+  <script src="new.js"></script>
 
 </body>
 
