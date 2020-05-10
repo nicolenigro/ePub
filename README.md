@@ -1,7 +1,7 @@
 # PQ6: Tell Your Story
 Anaïs Sarrazin, Emme McCabe & Nicole Nigro
 
-How to configure our project:
+**How to configure our project:**
 1. Clone this repository onto your computer
 2. Open the terminal
 3. Change your directory to the folder you stored this project in: cd Documents/GitHub/ePub
@@ -9,8 +9,8 @@ How to configure our project:
 5. Copy and paste this URL into a web browser: http://localhost:8000/
 Once the page loads, you should be able to see ePub's home page (index.html)
 
-How to use our project:
-On our home page, we have links to other pages on right part of the header bar
+**How to use our project:**
+*On our home page, we have links to other pages on right part of the header bar*
 - the About page has some information about our idea for ePub
 - the Menu page has links under the centered menu label to different parts of the menu
 - the Contact page has the phone # and address of the Jack Magee's Pub
@@ -19,8 +19,7 @@ On our home page, we have links to other pages on right part of the header bar
 - the Sign In page lets users who have accounts made sign in with their username and password so that their order information can be saved/accessed
 - the Cart popup shows users what is currently in their cart
 
-The main task users will use our project for is ordering items.
-Here is a guide to ordering an item on ePub:
+*The main task users will use our project for is ordering items. Here is a guide to ordering an item on ePub:*
 1. Click on the menu page.
 2. Click on a link under the centered menu header to a specific menu item page (e.g. clicking on the salads label will take you to the salads page where we list all of the salads you can order from Jack Magee's Pub).
 3. Once you find the item you want to order, click on that item's blue add to cart button.
