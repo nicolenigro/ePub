@@ -2,7 +2,7 @@
 Anaïs Sarrazin, Emme McCabe & Nicole Nigro
 
 
-**How to configure our project:**
+## How to configure our project:
 1. Clone this repository onto your computer
 2. Open the terminal
 3. Change your directory to the folder you stored this project in: cd Documents/GitHub/ePub
@@ -11,8 +11,7 @@ Anaïs Sarrazin, Emme McCabe & Nicole Nigro
 Once the page loads, you should be able to see ePub's home page (index.html)
 
 
-**How to use our project:**
-
+## How to use our project:
 *On our home page, we have links to other pages on the right part of the header bar:*
 - the About page has some information about our idea for ePub
 - the Menu page has links under the centered menu label to different parts of the menu
