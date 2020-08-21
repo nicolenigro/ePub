@@ -1,5 +1,5 @@
 # ePub
-Anaïs Sarrazin, Emme McCabe & Nicole Nigro
+
 
 
 ## How to configure our project:
@@ -37,3 +37,8 @@ Once the page loads, you should be able to see ePub's home page (index.html)
 5. When you are ready to check out, click on the blue Cart button and then click on the blue Checkout button in the bottom right corner of the cart popup.
 6. The previous step will take you to the checkout page. Here, you will be prompted to enter your first name, last name, email, order comments and spceifications (e.g. no pickles), and form of payment. You can also review your order and make any last minute changes to it. When you have finished entering your info and reviewing your order, click on the blue place order button. 
 7. Now your order has been placed! You will be taken to an order confirmation page that gives you your order number (which you can tell the pub cashier when you go to pay and pick it up) as well as an estimate for when your order will be done. Enjoy!
+
+## Authors
+* Anaïs Sarrazin
+* Emme McCabe
+* Nicole Nigro
