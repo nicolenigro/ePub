@@ -42,3 +42,6 @@ Once the page loads, you should be able to see ePub's home page (index.html)
 * Anaïs Sarrazin
 * Emme McCabe
 * Nicole Nigro
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
