@@ -1,6 +1,6 @@
 # ePub
 
-
+ePub is a website for members of the Bowdoin Community to order food online from Jack Magee's pub. This website offers a new, more efficient way to order food, which is particularly valuable for people who have time constraints and cannot afford being on hold when the Pub is serving customer orders real-time or waiting for their food to be ready.
 
 ## How to configure our project:
 1. Clone this repository onto your computer
